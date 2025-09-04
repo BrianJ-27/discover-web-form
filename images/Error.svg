@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Error" transform="translate(0 0)">
+    <rect id="Brand_Icons_Alert_Error_background" data-name="Brand/Icons/Alert/Error background" width="24" height="24" fill="none"/>
+    <path id="DFS_Browser_Design_Foundation_Functional_Icons_Alerts_Error" data-name="DFS / Browser / Design Foundation / Functional Icons / Alerts / Error" d="M3.515,3.515A12,12,0,0,0,20.486,20.486,12,12,0,0,0,3.515,3.515ZM1.455,12A10.546,10.546,0,1,1,12,22.546,10.557,10.557,0,0,1,1.455,12Zm9.152-5.906c-.007.7-.008,1.252-.005,2.5,0,.072,0,.072,0,.144,0,.1,0,.193,0,.277v.6c0,.277,0,.5,0,1,0,1.2,0,1.737,0,2.406A1.444,1.444,0,0,0,12,14.6a1.42,1.42,0,0,0,1.394-1.462q.012-3.505,0-7.076a1.4,1.4,0,1,0-2.787.032ZM12,16.6a1.4,1.4,0,1,0,.01,0Z" transform="translate(0 0)" fill="#a01c2b"/>
+  </g>
+</svg>

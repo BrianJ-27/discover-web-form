@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
- <meta charset="UTF-8" />
- <meta http-equiv="X-UA-Compatible" content="IE=edge" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Concept 1</title>
- <link rel="stylesheet" href="style.css" />
+ <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -14,21 +14,21 @@
   <header class="header__section">
    <div class="header__bar text__ctr text__left">
     <a href="http://www.discover.com?/">
-          <img src="images/discover-logo-x2.png" alt="Discover" width="110" height="auto" />
-        </a>
+      <img src="images/discover-logo-x2.png" alt="Discover" width="110">
+    </a>
    </div>
    <div class="flex flex__center">
     <div>
-     <img class="hero__graphic" src="images/DiscoSun-gradient.png" alt="" />
+     <img class="hero__graphic" src="images/DiscoSun-gradient.png" alt="">
     </div>
     <div class="hero__copy text__ctr">
      <h1 class="title__primary text__bold">
       Your feedback is really important to us
      </h1>
      <p class="title__secondary">
-            This short, two-question survey will help us improve your
-            experience. Thank you!
-          </p>
+       This short, two-question survey will help us improve your
+       experience. Thank you!
+     </p>
     </div>
    </div>
   </header>
@@ -48,45 +48,47 @@
     <form action="./thankyou.html" name="form1" method="GET" id="form__submit">
      <!--START 1st Question Section-->
      <fieldset>
-      <div class="form__heading--container">
-       <legend data-number-1 class="form__heading text__bold pad_left-rem">
+      <legend data-number-1 class="form__heading--container form__heading text__bold pad_left-rem">
+       <span>
         Is there a reason you haven't completed a balance transfer
         <span style="white-space: nowrap;">yet?<span class="char_color">*</span></span>
-       </legend>
+       </span>
+      </legend>
+      <div class="form__heading--container">
        <p class="text__color--all pad_left-rem text__form">
-                Check all that apply
-              </p>
+        Check all that apply
+       </p>
       </div>
 
       <div data-checkbox-group id="question1">
        <div class="input__group--flex" id="error__checkbox">
         <div class="checkbox-container">
-         <input class="form__field" type="checkbox" id="cb1" name="bt_reason" value="Found a better offer" />
+         <input class="form__field" type="checkbox" id="cb1" name="bt_reason" value="Found a better offer">
          <label class="text__form" for="cb1">Found a better offer</label>
         </div>
 
         <div class="checkbox-container">
-         <input class="form__field" type="checkbox" id="cb2" name="bt_reason" value="Need a larger credit line" />
+         <input class="form__field" type="checkbox" id="cb2" name="bt_reason" value="Need a larger credit line">
          <label class="text__form" for="cb2">Need a larger credit line</label>
         </div>
 
         <div class="checkbox-container">
-         <input class="form__field" type="checkbox" id="cb3" name="bt_reason" value="Unsure how much I\'d save on interest" />
+         <input class="form__field" type="checkbox" id="cb3" name="bt_reason" value="Unsure how much I\'d save on interest">
          <label class="text__form" for="cb3">Unsure how much I&#39;d save on interest</label>
         </div>
 
         <div class="checkbox-container">
-         <input class="form__field" type="checkbox" id="cb4" name="bt_reason" value="Don\'t like the fee or terms" />
+         <input class="form__field" type="checkbox" id="cb4" name="bt_reason" value="Don\'t like the fee or terms">
          <label class="text__form" for="cb4">Don&#39;t like the fee or terms</label>
         </div>
 
         <div class="checkbox-container">
-         <input class="form__field" type="checkbox" id="cb5" name="bt_reason" value="Don\'t have my transfer information on hand" />
+         <input class="form__field" type="checkbox" id="cb5" name="bt_reason" value="Don\'t have my transfer information on hand">
          <label class="text__form" for="cb5">Don&#39;t have my transfer information on hand</label>
         </div>
 
         <div class="checkbox-container">
-         <input class="form__field" type="checkbox" id="cb6" name="bt_reason" value="Other" onclick="showTextBox()" />
+         <input class="form__field" type="checkbox" id="cb6" name="bt_reason" value="Other" onclick="showTextBox()">
          <label class="text__form" for="cb6">Other</label>
         </div>
        </div>
@@ -94,23 +96,19 @@
       <!--If form is submitted without selecting an option error message will display-->
       <p class="error__message" style="display: none;">
               <svg class="error__icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
-                <g id="Error" transform="translate(0 0)">
-                  <rect id="Brand_Icons_Alert_Error_background" data-name="Brand/Icons/Alert/Error background"
-                    width="24" height="24" fill="none" />
-                  <path id="DFS_Browser_Design_Foundation_Functional_Icons_Alerts_Error"
-                    data-name="DFS / Browser / Design Foundation / Functional Icons / Alerts / Error"
-                    d="M3.515,3.515A12,12,0,0,0,20.486,20.486,12,12,0,0,0,3.515,3.515ZM1.455,12A10.546,10.546,0,1,1,12,22.546,10.557,10.557,0,0,1,1.455,12Zm9.152-5.906c-.007.7-.008,1.252-.005,2.5,0,.072,0,.072,0,.144,0,.1,0,.193,0,.277v.6c0,.277,0,.5,0,1,0,1.2,0,1.737,0,2.406A1.444,1.444,0,0,0,12,14.6a1.42,1.42,0,0,0,1.394-1.462q.012-3.505,0-7.076a1.4,1.4,0,1,0-2.787.032ZM12,16.6a1.4,1.4,0,1,0,.01,0Z"
-                    transform="translate(0 0)" fill="#a01c2b" />
+                <g transform="translate(0 0)">
+                  <rect width="24" height="24" fill="none" />
+                  <path d="M3.515,3.515A12,12,0,0,0,20.486,20.486,12,12,0,0,0,3.515,3.515ZM1.455,12A10.546,10.546,0,1,1,12,22.546,10.557,10.557,0,0,1,1.455,12Zm9.152-5.906c-.007.7-.008,1.252-.005,2.5,0,.072,0,.072,0,.144,0,.1,0,.193,0,.277v.6c0,.277,0,.5,0,1,0,1.2,0,1.737,0,2.406A1.444,1.444,0,0,0,12,14.6a1.42,1.42,0,0,0,1.394-1.462q.012-3.505,0-7.076a1.4,1.4,0,1,0-2.787.032ZM12,16.6a1.4,1.4,0,1,0,.01,0Z"
+                    transform="translate(0 0)" fill="#a01c2b"/>
                 </g>
               </svg>Please make a selection
             </p>
-      <!--If other checkbox is checked a textarea element will
-                      show for user to type in additional info-->
+      <!--If other checkbox is checked a textarea element will show for user to type in additional info-->
       <div id="optionalBox" class="flex flex__direction--col textbox__section" style="display: none;">
        <textarea name="additionalReasons" id="optional100" maxlength="100" onkeypress="isInputAlphaNumeric(event)" onkeyup="charCounter100()" placeholder="Please tell us your reason."></textarea>
        <p style=" color: #5a5a6f; font-size: 0.875rem; padding-top: 0.4375rem;">
-                <span data-counter-100>0</span>/<span>100</span> characters
-              </p>
+        <span data-counter-100>0</span>/<span>100</span> characters
+       </p>
       </div>
      </fieldset>
      <!--END 1st Question Section-->
@@ -118,72 +116,58 @@
      <!--START 2nd Question Section-->
      <div style="padding-top: 1.4875rem;">
       <fieldset>
-       <div class="form__heading--container">
-        <legend data-number-2 class="form__heading text__bold pad_left-rem">
-         Do you plan on completing a balance transfer with
-         <span style="white-space: nowrap;">Discover?<span class="char_color">*</span></span>
-        </legend>
-       </div>
+       <legend data-number-2 class="form__heading--container form__heading text__bold pad_left-rem">
+        Do you plan on completing a balance transfer with
+        <span style="white-space: nowrap;">Discover?<span class="char_color">*</span></span>
+       </legend>
        <div data-radio-group id="question2">
         <div class="input__group--flex" id="error__radio">
          <div class="radio-container">
-          <input class="form__field" type="radio" id="rb1" name="bt_completion" value="Yes, within a month" />
+          <input class="form__field" type="radio" id="rb1" name="bt_completion" value="Yes, within a month">
           <label class="text__form" for="rb1">Yes, within a month</label>
          </div>
 
          <div class="radio-container">
-          <input class="form__field" type="radio" id="rb2" name="bt_completion" value="Yes, not sure when" />
+          <input class="form__field" type="radio" id="rb2" name="bt_completion" value="Yes, not sure when">
           <label class="text__form" for="rb2">Yes, not sure when</label>
          </div>
 
          <div class="radio-container">
-          <input class="form__field" type="radio" id="rb3" name="bt_completion" value="Maybe, I\'m still researching" />
+          <input class="form__field" type="radio" id="rb3" name="bt_completion" value="Maybe, I\'m still researching">
           <label data-border="highlight" class="text__form" for="rb3">Maybe, I&#39;m still researching</label>
          </div>
 
          <div class="radio-container">
-          <input class="form__field" type="radio" id="rb4" name="bt_completion" value="Not Likely" />
+          <input class="form__field" type="radio" id="rb4" name="bt_completion" value="Not Likely">
           <label class="text__form" for="rb4">Not Likely</label>
          </div>
         </div>
        </div>
-
        <!--If form is submitted without selecting an option error message will display-->
        <p class="error__message--clr" style="display: none;">
                 <svg class="error__icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
-                  <g id="Error" transform="translate(0 0)">
-                    <rect id="Brand_Icons_Alert_Error_background" data-name="Brand/Icons/Alert/Error background"
-                      width="24" height="24" fill="none" />
-                    <path id="DFS_Browser_Design_Foundation_Functional_Icons_Alerts_Error"
-                      data-name="DFS / Browser / Design Foundation / Functional Icons / Alerts / Error"
-                      d="M3.515,3.515A12,12,0,0,0,20.486,20.486,12,12,0,0,0,3.515,3.515ZM1.455,12A10.546,10.546,0,1,1,12,22.546,10.557,10.557,0,0,1,1.455,12Zm9.152-5.906c-.007.7-.008,1.252-.005,2.5,0,.072,0,.072,0,.144,0,.1,0,.193,0,.277v.6c0,.277,0,.5,0,1,0,1.2,0,1.737,0,2.406A1.444,1.444,0,0,0,12,14.6a1.42,1.42,0,0,0,1.394-1.462q.012-3.505,0-7.076a1.4,1.4,0,1,0-2.787.032ZM12,16.6a1.4,1.4,0,1,0,.01,0Z"
-                      transform="translate(0 0)" fill="#a01c2b" />
-                  </g>
+                  <g transform="translate(0 0)">
+                  <rect width="24" height="24" fill="none" />
+                  <path d="M3.515,3.515A12,12,0,0,0,20.486,20.486,12,12,0,0,0,3.515,3.515ZM1.455,12A10.546,10.546,0,1,1,12,22.546,10.557,10.557,0,0,1,1.455,12Zm9.152-5.906c-.007.7-.008,1.252-.005,2.5,0,.072,0,.072,0,.144,0,.1,0,.193,0,.277v.6c0,.277,0,.5,0,1,0,1.2,0,1.737,0,2.406A1.444,1.444,0,0,0,12,14.6a1.42,1.42,0,0,0,1.394-1.462q.012-3.505,0-7.076a1.4,1.4,0,1,0-2.787.032ZM12,16.6a1.4,1.4,0,1,0,.01,0Z"
+                    transform="translate(0 0)" fill="#a01c2b"/>
+                </g>
                 </svg>Please make a selection
               </p>
       </fieldset>
      </div>
 
      <!--END 2nd Question Section-->
-
      <!--START Optional Feedback Section-->
-     <fieldset>
-      <div data-textbox-group>
-       <legend class="form__heading text__bold pad_left-rem">
-        Is there any other feedback you'd like to share?
-       </legend>
-       <p class="text__color--all pad_left-rem text__form">Optional</p>
-      </div>
+     <fieldset data-textbox-group>
+      <legend class="form__heading text__bold pad_left-rem">
+       Is there any other feedback you'd like to share?
+      </legend>
+      <p class="text__color--all pad_left-rem text__form">Optional</p>
       <div class="textbox__section">
        <div class="flex flex__direction--col">
         <textarea name="other_feedback" id="optional500" maxlength="500" onkeypress="isInputAlphaNumeric(event)" onkeyup="charCounter500()" placeholder="You can enter any additional comments here."></textarea>
-        <p style="
-                      color: #5a5a6f;
-                      font-size: 0.875rem;
-                      padding-top: 0.4375rem;
-                    ">
-                  <span data-counter-500>0</span>/<span>500</span> characters
-                </p>
+        <p style=" color: #5a5a6f; font-size: 0.875rem; padding-top: 0.4375rem;"><span data-counter-500>0</span>/<span>500</span> characters
+        </p>
        </div>
       </div>
      </fieldset>
@@ -192,9 +176,7 @@
      <!--START Submit Button Section-->
      <div class="btn__container pad__left--large">
       <button type="submit" class="btn__submit">Submit</button>
-      <p class="text__bold text__ctr text__left answer__required">
-              * Answer required
-            </p>
+      <p class="text__bold text__ctr text__left answer__required">* Answer required</p>
      </div>
      <!--END Submit Button Section-->
     </form>
@@ -205,12 +187,10 @@
     <nav class="footer__nav">
      <ul class="flex flex__space--between">
       <li><a class="footer__link" href="https://www.discover.com/privacy-statement">Privacy Policy</a></li>
-      <span style="color: #9191a0">|</span>
-      <li><a class="footer__link" href="https://www.discover.com/credit-cards/member-benefits">Security
-                Measures</a></li>
-      <span style="color: #9191a0">|</span>
-      <li><a class="footer__link" href="https://www.discover.com/credit-cards/discover-terms-of-use">Terms of
-                Use</a></li>
+      <li><span style="color: #9191a0">|</span></li>
+      <li><a class="footer__link" href="https://www.discover.com/credit-cards/member-benefits">Security Measures</a></li>
+      <li><span style="color: #9191a0">|</span></li>
+      <li><a class="footer__link" href="https://www.discover.com/credit-cards/discover-terms-of-use">Terms of Use</a></li>
      </ul>
     </nav>
    </div>

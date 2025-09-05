@@ -475,7 +475,7 @@ input[type="radio"] + label {
   font-size: 1.5rem;
   color: var(--brand-clr);
   font-weight: bold;
-  padding: 0 3rem;
+  text-wrap: balance;
 }
 .confirmation__container p {
   font-size: 0.875rem;
@@ -514,6 +514,7 @@ input[type="radio"] + label {
 
   .confirmation__container {
     padding-top: 4.2188rem;
+    padding-inline: 1.25rem;
   }
 
   .form__container {
